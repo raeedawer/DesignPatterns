@@ -11,7 +11,7 @@ public class StoreBuilder  {
         return id;
     }
 
-    public StoreBuilder setId(int id) {
+    public StoreBuilder id(int id) {
         this.id = id;
         return this;
     }
@@ -20,7 +20,7 @@ public class StoreBuilder  {
         return name;
     }
 
-    public StoreBuilder setName(String name) {
+    public StoreBuilder name(String name) {
         this.name = name;
         return this;
     }
@@ -29,7 +29,7 @@ public class StoreBuilder  {
         return location;
     }
 
-    public StoreBuilder setLocation(String location) {
+    public StoreBuilder location(String location) {
         this.location = location;
         return this;
     }
@@ -38,12 +38,12 @@ public class StoreBuilder  {
         return title;
     }
 
-    public StoreBuilder setTitle(String title) {
+    public StoreBuilder title(String title) {
         this.title = title;
         return this;
     }
 
-   public Store Build(){
+   public Store build(){
 
 
       return new  Store(name,id,location,title);

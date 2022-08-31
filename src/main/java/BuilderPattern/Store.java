@@ -1,5 +1,6 @@
 package BuilderPattern;
 
+import lombok.Builder;
 public class Store {
   int id;
   String name,location ,title;
@@ -19,6 +20,7 @@ public class Store {
     this.id=id;
     this.name=name;
     this.title=title;
+    this.location=location;
   }
 
 
