@@ -1,6 +1,5 @@
-package BuilderPattern;
+package home.BuilderPattern;
 
-import lombok.Builder;
 public class Store {
   int id;
   String name,location ,title;

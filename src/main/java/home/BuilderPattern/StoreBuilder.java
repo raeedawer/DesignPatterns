@@ -1,4 +1,4 @@
-package BuilderPattern;
+package home.BuilderPattern;
 
 public class StoreBuilder  {
     private int id;
